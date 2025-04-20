@@ -5,7 +5,7 @@ from PIL import Image
 from advices import advices
 
 # Load the trained model
-model = tf.keras.models.load_model("model.h5")
+model = tf.keras.models.load_model("cropDisease/model.h5")
 
 # Define the class names
 class_names = [
